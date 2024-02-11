@@ -19,6 +19,8 @@ public class TestDemo {
 		WebDriver driver = new RemoteWebDriver(new URL("https://browserstack.com/wd/hub"),caps);
 		driver.get("https://rahulshettyacademy.com");
 		Assert.assertTrue(driver.getTitle().matches("Rahul Shetty Academy"));
+		System.out.println("Git commit changes");
+		System.out.println("Checking updated file in repository");
 		
 	}
 
