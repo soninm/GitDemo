@@ -1,0 +1,17 @@
+14:58:12.315 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.17.0
+14:58:12.318 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:58:12.572 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\inpmahalin\\eclipse-workspace\\CrossBrowserTest, user.dir=C\:\\Users\\inpmahalin\\eclipse-workspace\\CrossBrowserTest, localrepository=C\:\\Users\\inpmahalin\\.m2\\repository}
+14:58:12.574 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\browserstack.yml
+14:58:12.575 [main] ERROR c.b.config.BrowserStackConfig - [Invalid Path] Config file does not exist at any parent directory of C:\Users\inpmahalin\eclipse-workspace\CrossBrowserTest. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+14:58:12.576 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - java.lang.RuntimeException: [Invalid Path] Config file does not exist at any parent directory of C:\Users\inpmahalin\eclipse-workspace\CrossBrowserTest. Please include a browserstack.yml/browserstack.yaml file containing configuration for tests.
+	at com.browserstack.config.BrowserStackConfig.getInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
